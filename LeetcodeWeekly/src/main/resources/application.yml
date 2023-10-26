@@ -1,0 +1,10 @@
+server:
+   port: 8083
+   servlet:
+     context-path: /
+     session:
+       cookie:
+         secure: true
+security:
+  basic:
+    enable: false
